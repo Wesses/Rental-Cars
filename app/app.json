@@ -1,6 +1,6 @@
 {
   "id": "d75d668d-ce63-40be-a259-e60b3e31d0f8",
-  "name": "app",
+  "name": "Rental-Cars",
   "publisher": "Default publisher",
   "version": "1.0.0.0",
   "brief": "",
@@ -16,14 +16,14 @@
   "application": "19.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 50000,
+      "to": 99999
     }
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
   },
   "runtime": "8.0"
 }
