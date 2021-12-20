@@ -42,7 +42,11 @@ page 50003 "RC Rental Sales Header Card"
                     ToolTip = 'Specifies the value of the Rental Cars Colors field.';
                     ApplicationArea = All;
                 }
+            
+           
+                
             }
+
         }
     }
 

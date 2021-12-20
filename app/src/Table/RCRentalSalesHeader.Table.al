@@ -58,14 +58,35 @@ table 50000 "RC Rental Sales Header"
             DataClassification = CustomerContent;
 
         }
+        field(50; "Rental Cars No."; Code[20])
+        {
+            Caption = 'Rental Cars No.';
+            DataClassification = CustomerContent;
+            TableRelation = "RC Rental Sales Line"."Item No.";
+
+        }
+
+        field(60; "Line No."; Integer)
+        {
+            Caption = 'Rental Cars No.';
+            DataClassification = CustomerContent;
+
+        }
     }
     keys
     {
-        key(PK; "Doc. No.")
+        key(PK; "Doc. No.", "Rental Cars No.", "Line No.")
         {
             Clustered = true;
         }
     }
+
+    trigger OnDelete()
+    var
+        RCRentalCarMgt: Codeunit "RC Rental Car Mgt.";
+    begin
+        RCRentalCarMgt.DeleteRentalSalesLine("Doc. No.");
+    end;
 
     local procedure InitInsert()
     var

@@ -8,6 +8,7 @@ page 50000 "RC Rental Sales Header List"
     UsageCategory = Lists;
     Editable = true;
     CardPageId = "RC Rental Sales Header Card";
+    AutoSplitKey = true;
 
     layout
     {
