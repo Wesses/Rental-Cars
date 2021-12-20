@@ -1,0 +1,12 @@
+{
+    "al.defaultLaunchConfigurationName": "Deploy",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.AlSubFolderName": "None",
+    "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.ObjectNamePrefix": "RC ",
+    "CRS.ObjectNameSuffix": "",
+    "CRS.RemoveSuffixFromFilename": false,
+    "CRS.RemovePrefixFromFilename": false
+}
